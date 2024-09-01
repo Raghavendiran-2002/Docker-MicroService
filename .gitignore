@@ -1,0 +1,33 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+variables.env
+
+# Node modules and build artifacts
+node_modules
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build artifacts
+dist
+build
+*.log
+
+# IDE and editor files
+.idea
+*.sublime-workspace
+*.sublime-project
+
+./frontend/nginx-default.conf
